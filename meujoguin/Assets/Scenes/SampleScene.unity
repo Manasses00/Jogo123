@@ -270,7 +270,6 @@ GameObject:
   - component: {fileID: 633737110}
   - component: {fileID: 633737109}
   - component: {fileID: 633737108}
-  - component: {fileID: 633737107}
   - component: {fileID: 633737111}
   m_Layer: 0
   m_Name: objeto da morte
@@ -279,33 +278,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &633737107
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 633737105}
-  m_BodyType: 2
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &633737108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -746,7 +718,7 @@ Transform:
   m_GameObject: {fileID: 1168208167}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4198, y: 3.3377, z: 0}
+  m_LocalPosition: {x: -21, y: 15.2, z: 0}
   m_LocalScale: {x: 1.4527225, y: 1.4450282, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -784,7 +756,7 @@ GameObject:
   - component: {fileID: 1515545816}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10749,11 +10721,10 @@ GameObject:
   - component: {fileID: 2143262258}
   - component: {fileID: 2143262262}
   - component: {fileID: 2143262261}
-  - component: {fileID: 2143262260}
   - component: {fileID: 2143262259}
   m_Layer: 0
   m_Name: objeto da morte (2)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10785,33 +10756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5bd4628dae3ce74bb19dc9476a6c45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &2143262260
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143262257}
-  m_BodyType: 2
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &2143262261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10931,11 +10875,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2590884948392438063, guid: def45197c903d1f4eb86e17bd9f2e4ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4198
+      value: -21
       objectReference: {fileID: 0}
     - target: {fileID: 2590884948392438063, guid: def45197c903d1f4eb86e17bd9f2e4ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.3377
+      value: 15.2
       objectReference: {fileID: 0}
     - target: {fileID: 2590884948392438063, guid: def45197c903d1f4eb86e17bd9f2e4ba, type: 3}
       propertyPath: m_LocalPosition.z
